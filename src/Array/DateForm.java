@@ -11,6 +11,7 @@ public class DateForm {
 		Date d = new Date();
 		System.out.println(d);
 
+		// Convert date
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/mm/yy");
 		String dt = sdf.format(d);
 		System.out.println(dt);
