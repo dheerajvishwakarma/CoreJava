@@ -7,11 +7,7 @@ public class TestAccount {
 		
 		TestAccount testAccount = new  TestAccount();
 		testAccount.ramAccountDetails();
-		
-		
-		Account shyam = new Account("Current", "5", 300);
-		
-		
+			
 	}
 	
 	public void ramAccountDetails() {

@@ -1,4 +1,4 @@
-package Exercise;
+package learning;
 //sum of all int graterthen 100 and less then 200
 
 public class Integer {
@@ -15,4 +15,7 @@ public class Integer {
 		System.out.println(sum);
 	}
 
-}
+
+	}
+
+
