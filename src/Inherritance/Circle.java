@@ -1,4 +1,5 @@
 package Inherritance;
+
 //extends Shape
 public class Circle extends Shape {
 	private int radious;
@@ -10,8 +11,9 @@ public class Circle extends Shape {
 	public void setRadious(int radious) {
 		this.radious = radious;
 	}
+
 	public void area() {
-		double area= 3.14*radious*radious;
-		System.out.println("Area of Circle"+area);
+		double area = 3.14 * radious * radious;
+		System.out.println("Area of Circle" + area);
 	}
 }

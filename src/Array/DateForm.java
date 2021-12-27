@@ -4,8 +4,6 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-
-
 public class DateForm {
 	public static void main(String[] args) throws ParseException {
 		Date d = new Date();
@@ -22,7 +20,3 @@ public class DateForm {
 	}
 
 }
-
-
-
-

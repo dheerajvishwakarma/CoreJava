@@ -1,7 +1,7 @@
 package StringClass;
 
 public class ParsingCharacter {
-	
+
 	public static void main(String[] args) {
 
 		String a = "Dheeru";

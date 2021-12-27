@@ -1,15 +1,13 @@
 package Assignments;
 
-
 public class TestAccount {
-	public static void main (String[] args) {
-		
-		
-		TestAccount testAccount = new  TestAccount();
+	public static void main(String[] args) {
+
+		TestAccount testAccount = new TestAccount();
 		testAccount.ramAccountDetails();
-			
+
 	}
-	
+
 	public void ramAccountDetails() {
 		Account ram = new Account();
 		ram.setAccountType("Saving");
@@ -24,5 +22,3 @@ public class TestAccount {
 		System.out.println(ram.getBalance());
 	}
 }
-
-
