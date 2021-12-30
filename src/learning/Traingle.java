@@ -1,4 +1,4 @@
-package Deccristmus;
+package learning;
 
 public class Traingle extends Shape {
 	

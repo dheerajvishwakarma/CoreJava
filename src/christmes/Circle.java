@@ -8,6 +8,12 @@ public class Circle implements Shape {
 		System.out.println(a+b);
 	}
 
+	@Override
+	public void area() {
+		// TODO Auto-generated method stub
+		
+	}
+
 	
 
 }

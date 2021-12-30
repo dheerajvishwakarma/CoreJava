@@ -35,6 +35,7 @@ public class Account {
 	public void withdrawal(double w) {
 		balance = balance - w;
 		System.out.println("Withdrawal from account is: " + w);
+	
 	}
 
 	public void deposit(double d) {
