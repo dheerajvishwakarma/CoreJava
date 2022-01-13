@@ -9,7 +9,7 @@ import java.io.PrintWriter;
 public class Keyboardtofile {
 	public static void main(String[] args) throws IOException {
 		String target= "C:\\Drive_E\\test2.txt";
-		FileWriter writer = new FileWriter(target);
+		FileWriter writer = new FileWriter(target,true);
 		PrintWriter pw = new PrintWriter(writer);
 		
 		InputStreamReader isr =new InputStreamReader(System.in);
